@@ -1,0 +1,45 @@
+/*style for root container*/
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, sens-serif;
+}
+
+/* style for  header*/
+header {
+  background-color: hsl(0, 97%, 75%);
+  color: black;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* style for each question*/
+p {
+  background-color: #801793;
+  padding: 10px;
+  /* border-radius: 5px; */
+  margin: 10px 0;
+  width: 80px;
+  max-width: 500px;
+}
+
+/* style for footer*/
+footer {
+  background-color: hsl(0, 97%, 75%);
+  color: black;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
